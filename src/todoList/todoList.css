@@ -1,0 +1,53 @@
+.todoList {
+}
+.todoItem {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    height: auto;
+}
+.todoItem:hover .todoRemove {
+    display: block;
+}
+.todoContainer {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+
+    word-break: break-all;
+}
+.toogle {
+    width: 2.3em;
+    height: 2.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+
+    left: 10px;
+}
+.toogle:checked {
+    background-color: #ccc;
+}
+.todoLabel {
+    font-size: 25px;
+    font-weight: 400;
+}
+.todoRemove {
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    opacity: 0.3;
+    display: none;
+}
+.todoRemove:hover {
+    opacity: 0.6;
+}

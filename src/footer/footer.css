@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgb(114, 113, 113);
+    padding: 10px 20px;
+}
+.footerAmount {
+    position: absolute;
+    left: 10px;
+}
+
+.btn {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    color: rgb(114, 113, 113);
+    cursor: pointer;
+    background-color: transparent;
+    padding: 3px;
+}
+.active {
+    border: 1px solid #ccc;
+}
+.btn:first-child {
+    border: 1px solid #ccc;
+}
+.btn:hover {
+    border: 1px solid #ccc;
+}
